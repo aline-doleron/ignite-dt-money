@@ -14,9 +14,10 @@ export const TransactionsTable = styled.main`
     margin-top: 1.5rem;
 
     td {
-        padding: 1.25rem 2rem;
+        padding: 2rem 3.2rem;
         background: ${props => props.theme["gray-700"]};
-
+        line-height: 0;
+        
         &:first-child {
             border-top-left-radius: 6px;
             border-bottom-left-radius: 6px;
